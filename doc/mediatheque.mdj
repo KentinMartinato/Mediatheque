@@ -223,6 +223,25 @@
 											"height": 13,
 											"text": "+printOnlyCDs()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGVLhRoXOnz5xk=",
+											"_parent": {
+												"$ref": "AAAAAAGLFR7g3j5XeA8="
+											},
+											"model": {
+												"$ref": "AAAAAAGVLhRoVOnwUus="
+											},
+											"fillColor": "#ffcc99",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 189,
+											"top": 268,
+											"width": 211.38037109375,
+											"height": 13,
+											"text": "+accept(ItemVisitor client)",
+											"horizontalAlignment": 0
 										}
 									],
 									"fillColor": "#ffcc99",
@@ -231,7 +250,7 @@
 									"left": 184,
 									"top": 203,
 									"width": 221.38037109375,
-									"height": 68
+									"height": 83
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -277,7 +296,7 @@
 							"left": 184,
 							"top": 168,
 							"width": 220.38037109375,
-							"height": 103,
+							"height": 118,
 							"showProperty": false,
 							"nameCompartment": {
 								"$ref": "AAAAAAGLFR7g3T5Rie4="
@@ -479,7 +498,7 @@
 											"top": 292,
 											"width": 154.27685546875,
 											"height": 13,
-											"text": "+accept(ItemVisitor visitor)",
+											"text": "+accept(ItemVisitor client)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -576,7 +595,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 507,
-									"top": 224,
+									"top": 227,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -598,7 +617,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 509,
-									"top": 209,
+									"top": 212,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -620,7 +639,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 504,
-									"top": 253,
+									"top": 256,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -642,7 +661,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 432,
-									"top": 215,
+									"top": 219,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -664,7 +683,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 436,
-									"top": 202,
+									"top": 206,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -686,7 +705,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 425,
-									"top": 241,
+									"top": 246,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -707,7 +726,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 563,
-									"top": 233,
+									"top": 235,
 									"width": 38.65087890625,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -729,8 +748,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 582,
-									"top": 219,
+									"left": 581,
+									"top": 221,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -750,7 +769,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 581,
-									"top": 260,
+									"top": 263,
 									"width": 6.5,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -800,7 +819,7 @@
 								"$ref": "AAAAAAGLFR7g3T5QGq8="
 							},
 							"lineStyle": 1,
-							"points": "405:233;607:257",
+							"points": "405:238;607:259",
 							"showVisibility": true,
 							"showProperty": false,
 							"nameLabel": {
@@ -1022,7 +1041,7 @@
 											"top": 436,
 											"width": 154.27685546875,
 											"height": 13,
-											"text": "+accept(ItemVisitor visitor)",
+											"text": "+accept(ItemVisitor client)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1379,7 +1398,7 @@
 											"top": 452,
 											"width": 154.27685546875,
 											"height": 13,
-											"text": "+accept(ItemVisitor visitor)",
+											"text": "+accept(ItemVisitor client)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1599,7 +1618,7 @@
 											"top": 519,
 											"width": 175,
 											"height": 13,
-											"text": "« Interface » ItemVisitor"
+											"text": "ItemVisitor"
 										},
 										{
 											"_type": "LabelView",
@@ -1696,7 +1715,7 @@
 											"top": 552,
 											"width": 175,
 											"height": 13,
-											"text": "+visit(Book book)",
+											"text": "+visit(Book livre)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1715,7 +1734,7 @@
 											"top": 567,
 											"width": 175,
 											"height": 13,
-											"text": "+visit(CD cd)",
+											"text": "+visit(CD disque)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2379,7 +2398,7 @@
 												"$ref": "AAAAAAGVLSxOJeu5v7g="
 											},
 											"visible": false,
-											"fillColor": "#1EFF00",
+											"fillColor": "#FFC294",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": -576,
@@ -2392,7 +2411,7 @@
 											"_parent": {
 												"$ref": "AAAAAAGVLSxOJeu5v7g="
 											},
-											"fillColor": "#1EFF00",
+											"fillColor": "#FFC294",
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 205,
@@ -2408,7 +2427,7 @@
 												"$ref": "AAAAAAGVLSxOJeu5v7g="
 											},
 											"visible": false,
-											"fillColor": "#1EFF00",
+											"fillColor": "#FFC294",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": -576,
@@ -2424,7 +2443,7 @@
 												"$ref": "AAAAAAGVLSxOJeu5v7g="
 											},
 											"visible": false,
-											"fillColor": "#1EFF00",
+											"fillColor": "#FFC294",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": -576,
@@ -2433,7 +2452,7 @@
 											"horizontalAlignment": 1
 										}
 									],
-									"fillColor": "#1EFF00",
+									"fillColor": "#FFC294",
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 200,
@@ -2462,7 +2481,7 @@
 									"model": {
 										"$ref": "AAAAAAGVLSxOJOu250Q="
 									},
-									"fillColor": "#1EFF00",
+									"fillColor": "#FFC294",
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 200,
@@ -2489,14 +2508,14 @@
 											"model": {
 												"$ref": "AAAAAAGVLS4WFgnZFV0="
 											},
-											"fillColor": "#1EFF00",
+											"fillColor": "#FFC294",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 205,
 											"top": 736,
 											"width": 181.375,
 											"height": 13,
-											"text": "+visit(Book book)",
+											"text": "+visit(Book livre)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2508,18 +2527,18 @@
 											"model": {
 												"$ref": "AAAAAAGVLS5QPAsC4KA="
 											},
-											"fillColor": "#1EFF00",
+											"fillColor": "#FFC294",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 205,
 											"top": 751,
 											"width": 181.375,
 											"height": 13,
-											"text": "+visit(CD cd)",
+											"text": "+visit(CD disque)",
 											"horizontalAlignment": 0
 										}
 									],
-									"fillColor": "#1EFF00",
+									"fillColor": "#FFC294",
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 200,
@@ -2537,7 +2556,7 @@
 										"$ref": "AAAAAAGVLSxOJOu250Q="
 									},
 									"visible": false,
-									"fillColor": "#1EFF00",
+									"fillColor": "#FFC294",
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": -288,
@@ -2555,7 +2574,7 @@
 										"$ref": "AAAAAAGVLSxOJOu250Q="
 									},
 									"visible": false,
-									"fillColor": "#1EFF00",
+									"fillColor": "#FFC294",
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": -288,
@@ -2564,7 +2583,7 @@
 									"height": 10
 								}
 							],
-							"fillColor": "#1EFF00",
+							"fillColor": "#FFC294",
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"containerChangeable": true,
@@ -2615,7 +2634,7 @@
 												"$ref": "AAAAAAGVLSyz/fFY5io="
 											},
 											"visible": false,
-											"fillColor": "#40FF00",
+											"fillColor": "#F9C58A",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 112,
@@ -2628,7 +2647,7 @@
 											"_parent": {
 												"$ref": "AAAAAAGVLSyz/fFY5io="
 											},
-											"fillColor": "#40FF00",
+											"fillColor": "#F9C58A",
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 549,
@@ -2644,7 +2663,7 @@
 												"$ref": "AAAAAAGVLSyz/fFY5io="
 											},
 											"visible": false,
-											"fillColor": "#40FF00",
+											"fillColor": "#F9C58A",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 112,
@@ -2660,7 +2679,7 @@
 												"$ref": "AAAAAAGVLSyz/fFY5io="
 											},
 											"visible": false,
-											"fillColor": "#40FF00",
+											"fillColor": "#F9C58A",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 112,
@@ -2669,7 +2688,7 @@
 											"horizontalAlignment": 1
 										}
 									],
-									"fillColor": "#40FF00",
+									"fillColor": "#F9C58A",
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 544,
@@ -2709,7 +2728,7 @@
 												"$ref": "AAAAAAGVLS6BowvIsVc="
 											},
 											"visible": false,
-											"fillColor": "#40FF00",
+											"fillColor": "#F9C58A",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 397,
@@ -2720,7 +2739,7 @@
 											"horizontalAlignment": 0
 										}
 									],
-									"fillColor": "#40FF00",
+									"fillColor": "#F9C58A",
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 544,
@@ -2747,14 +2766,14 @@
 											"model": {
 												"$ref": "AAAAAAGVLS6UtwxxnEw="
 											},
-											"fillColor": "#40FF00",
+											"fillColor": "#F9C58A",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 549,
 											"top": 744,
 											"width": 125.7314453125,
 											"height": 13,
-											"text": "+visit(Book book)",
+											"text": "+visit(Book livre)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2766,18 +2785,18 @@
 											"model": {
 												"$ref": "AAAAAAGVLTXQdCRZg3Y="
 											},
-											"fillColor": "#40FF00",
+											"fillColor": "#F9C58A",
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 549,
 											"top": 759,
 											"width": 125.7314453125,
 											"height": 13,
-											"text": "+visit(CD cd)",
+											"text": "+visit(CD disque)",
 											"horizontalAlignment": 0
 										}
 									],
-									"fillColor": "#40FF00",
+									"fillColor": "#F9C58A",
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 544,
@@ -2795,7 +2814,7 @@
 										"$ref": "AAAAAAGVLSyz/PFV+2E="
 									},
 									"visible": false,
-									"fillColor": "#40FF00",
+									"fillColor": "#F9C58A",
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 56,
@@ -2813,7 +2832,7 @@
 										"$ref": "AAAAAAGVLSyz/PFV+2E="
 									},
 									"visible": false,
-									"fillColor": "#40FF00",
+									"fillColor": "#F9C58A",
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 56,
@@ -2822,7 +2841,7 @@
 									"height": 10
 								}
 							],
-							"fillColor": "#40FF00",
+							"fillColor": "#F9C58A",
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"containerChangeable": true,
@@ -3064,8 +3083,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 354,
-									"top": 381,
+									"left": 355,
+									"top": 388,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -3086,8 +3105,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 368,
-									"top": 377,
+									"left": 369,
+									"top": 384,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3108,8 +3127,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 325,
-									"top": 388,
+									"left": 326,
+									"top": 397,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3128,7 +3147,7 @@
 								"$ref": "AAAAAAGLFR7g3T5QGq8="
 							},
 							"lineStyle": 1,
-							"points": "308:272;373:511",
+							"points": "311:287;372:511",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGVLTWOeB/BMrg="
@@ -3139,6 +3158,19 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGVLTWOeB/Ddhs="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGVLiFhIwFo9Wo=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 671,
+							"top": 592,
+							"width": 100,
+							"height": 25
 						}
 					]
 				},
@@ -3267,6 +3299,24 @@
 								"$ref": "AAAAAAGLFR7g3D5Om9U="
 							},
 							"name": "printOnlyCDs"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGVLhRoVOnwUus=",
+							"_parent": {
+								"$ref": "AAAAAAGLFR7g3D5Om9U="
+							},
+							"name": "accept",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGVLhTeVurRH0I=",
+									"_parent": {
+										"$ref": "AAAAAAGVLhRoVOnwUus="
+									},
+									"name": "ItemVisitor client"
+								}
+							]
 						}
 					]
 				},
@@ -3312,8 +3362,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGVLSRQWM67xtQ="
 									},
-									"name": "ItemVisitor visitor",
-									"type": ""
+									"name": "ItemVisitor client"
 								}
 							]
 						}
@@ -3430,8 +3479,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGVLSv0gudz2lA="
 									},
-									"name": "ItemVisitor visitor",
-									"type": ""
+									"name": "ItemVisitor client"
 								}
 							]
 						}
@@ -3521,8 +3569,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGVLSwiKOr5FWk="
 									},
-									"name": "ItemVisitor visitor",
-									"type": ""
+									"name": "ItemVisitor client"
 								}
 							]
 						}
@@ -3534,7 +3581,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "« Interface » ItemVisitor",
+					"name": "ItemVisitor",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -3578,8 +3625,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGVLSfSG9P52P0="
 									},
-									"name": "Book book",
-									"type": ""
+									"name": "Book livre"
 								}
 							]
 						},
@@ -3597,8 +3643,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGVLSgRUNQ1H7I="
 									},
-									"name": "CD cd",
-									"type": ""
+									"name": "CD disque"
 								}
 							]
 						}
@@ -3641,8 +3686,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGVLS4WFgnZFV0="
 									},
-									"name": "Book book",
-									"type": ""
+									"name": "Book livre"
 								}
 							]
 						},
@@ -3660,8 +3704,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGVLS5QPAsC4KA="
 									},
-									"name": "CD cd",
-									"type": ""
+									"name": "CD disque"
 								}
 							]
 						}
@@ -3715,8 +3758,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGVLS6UtwxxnEw="
 									},
-									"name": "Book book",
-									"type": ""
+									"name": "Book livre"
 								}
 							]
 						},
@@ -3734,8 +3776,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGVLTXQdCRZg3Y="
 									},
-									"name": "CD cd",
-									"type": ""
+									"name": "CD disque"
 								}
 							]
 						}
